@@ -1,0 +1,696 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat';
+	font-size: 1em;
+}
+
+.aligntext {
+	text-align: center;
+}
+
+.header {
+	position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10;
+}
+
+/** Main **/
+
+.introducao {
+    width: 100%;
+    height: 700px;
+	background-image: url("../img/estaiada.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.logo img {
+	width: 3%;
+    margin-top: 30px;
+    float: left;
+}
+
+.logo .menu {
+	position: fixed;
+}
+
+.menu {
+	float: right;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu ul {
+	list-style: none;
+	margin-top: 32px;
+}
+
+.menu ul li {
+	display: inline-block;
+	margin-right: 28px;
+}
+
+.intro {
+	color: #fff;
+	font-size: 2.5em;
+	font-weight: 700;
+	margin-top: 174px;
+	clear: both;
+    font-variant: small-caps;
+    z-index: 2;
+    position: relative;
+}
+
+.intro span {
+	font-size: 0.7em;
+}
+
+
+.btn {
+	width: 270px;
+	height: 38px;
+	margin-top: 45px;
+	border-radius: 50px;
+	float: left;
+	font-weight: bold;
+	background-color: #E3C94F;
+	color: #fff;
+	border:none;
+	font-size: 1.2em;
+	font-variant: small-caps;
+	cursor: pointer;
+}
+
+/**Sobre**/
+
+.sobre {
+	width: 100%;
+	height: 1666px;
+	background-image: url("../img/sobre.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -2;
+	float: left;
+}	
+
+.text {
+	color: #fff;
+	margin-top: 30px;
+	line-height: 1.5;
+	position: relative;
+	z-index: 2;
+}
+
+.isotipo {
+	width: 50%;
+    opacity: 0.1;
+    float: right;
+    position: absolute;
+    top: 77px;
+    right: 70px;
+    z-index: 1;
+    
+}
+
+.video {
+    width: 450px;
+    height: 253px;
+    position: relative;
+    z-index: 3;
+    float: right;
+    margin-top: 35px;
+    border: 2px solid #e3c94f;
+
+}
+
+/**O que fazemos**/
+
+.lista-servicos {
+	margin-top: 100px;
+	z-index: 3;
+    position: relative;
+
+}
+
+.icones-servicos img {
+    width: 27%;
+    float: left;
+    margin-top: 40px;
+    z-index: 2;
+
+}
+
+.legendas {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 30px;
+    float: left;
+}
+
+.list {
+    color: #fff;
+    float: left;
+    margin-top: 20px;
+    margin-left: 14px;
+    line-height: 1.8;
+    font-size: 0.8em;
+}
+
+.margin-list {
+	margin-left: 80px;
+}
+
+.btn-center {
+    width: 270px;
+    height: 38px;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: #E3C94F;
+    color: #fff;
+    border: none;
+    font-size: 1.2em;
+    font-variant: small-caps;
+    cursor: pointer;
+    text-align: center;
+    margin: 50px auto 0 auto;
+    display: block;
+    position: relative;
+    z-index: 4;
+}
+
+
+/**CITs**/
+
+.cits {
+	width: 100%;
+	height: 800px;
+	background-image: url("../img/cits.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+}
+
+.cits .btn-center {
+    margin-top: 76px;
+}
+
+.legendas-cits {
+    color: #fff;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+/**Roteiros**/
+
+.roteiros {
+	width: 100%;
+	height: 878px;
+	background-image: url("../img/roteiros.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+}
+
+.box-roteiro {
+	border: 1px solid #ffff;
+    padding: 20px;
+    border-radius: 26px;
+    margin-left:40px;
+}
+
+.thumb-roteiro {
+	float: left;
+	margin-right: 12px;
+}
+
+.legendas-roteiro {
+	color: #fff;
+    font-weight: 700;
+    font-size: 0.9em;
+    float: left;
+}
+
+.roteiros li:nth-child(3), .roteiros li:nth-child(4) {
+	margin-top: 20px;
+}
+
+/**Contato**/
+
+.contato {
+	width: 100%;
+	height: 878px;
+	background-image: url("../img/contato.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+}
+
+.info-contato {
+	margin: 20px auto 0 auto;
+    width: 410px;
+    height: 74px;
+}
+
+.call {
+    background-image: url(../img/call.png);
+    background-repeat: no-repeat;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.text-tel {
+	color: #fff;
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-weight: 700;
+    float: left;
+}
+
+.email {
+    background-image: url(../img/email.png);
+    background-repeat: no-repeat;
+    float: left;
+    clear: both;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.maps {
+	text-align: center;
+}
+
+.text-maps {
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+/**Footer**/
+
+.footer {
+	width: 100%;
+	height: 332px;
+	background: linear-gradient(to bottom, #747474 0%,#181818 100%);
+	float: left;
+}
+
+.logo-vmo {
+	margin-top: 20px;
+}
+
+.logo-vmo img {
+	width: 15%;
+}
+
+.legendas-rodape, .legendas-rodape-2 {
+	color: #fff;
+    font-weight: 700;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+.legendas-rodape-2 {
+    margin-left: 28px;
+
+}
+
+.list-rodape  {
+	margin-top: 20px;
+	margin-left: 0px;
+	line-height: 1.5;
+}
+
+
+.list-rodape a {
+	color: #fff;
+
+}
+
+.list-rodape-2 {
+    margin-top: 20px;
+    margin-left: 30px;
+    line-height: 1.5;
+}
+
+.list-rodape-2 a {
+    color: #fff;
+}
+
+.social-media img {
+    margin-left: 34px;
+
+}
+
+
+
+/*Tablets*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+
+.intro {
+    margin-top: 126px
+}
+
+
+/*Main*/
+
+   .menu a {
+    font-size: 0.9em;
+
+   }
+
+   .intro {
+    font-size: 2.0em;
+  
+}
+
+   .introducao .intro {
+ 
+    text-align: center;
+    margin-top: 237px;
+}
+
+   .introducao .btn {
+    
+    margin: 52px 247px;
+}
+
+
+/* sobre*/
+
+.icones-servicos img {
+    width: 19%;
+    float: left;
+    margin-top: 0;
+    z-index: 2;
+}
+
+.video {
+    width: 350px;
+    margin-top: 0px;
+
+}
+
+/* cits */
+
+.thumb-cits {
+    width: 97%;
+}
+
+.legendas-cis {
+    font-size: 0.7em;
+}
+
+
+/* Roteiros */
+
+
+.box-roteiro {
+    padding: 12px;
+    margin-left: 34px;
+}
+
+.lista-servicos .text {
+    font-size: 0.8em;
+
+}
+
+
+
+/*footer*/ 
+
+.footer .list-rodape {
+    font-size: 0.8em;
+}
+
+
+.footer .list-rodape-2 {
+    font-size: 0.8em;
+}
+
+
+}
+
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 767px) {
+
+.container {
+    overflow: hidden;
+}
+
+ /*Nav Bar*/
+
+ .header {
+    padding: 14px 0;
+ }
+
+
+.logo img {
+    width: 10%;
+    margin: 0 127px;
+    display: block;
+}
+
+.menu {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: -17px;
+}
+
+.menu a {
+    font-size: 0.9em;
+
+}
+
+.menu ul {
+    margin-top: 0px;
+}
+
+.menu ul li {
+    margin-top: 10px;
+    margin-right: 17px;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+
+/*Main*/
+
+.intro {
+    font-size: 1.8em;
+    margin-top: 80px;
+  
+}
+
+.introducao {
+    height: 550px;
+
+}
+
+.introducao .intro {
+    text-align: center;
+    margin-top: 237px;
+}
+
+.btn {
+    width: 300px;
+    margin-bottom: 54px
+}
+
+/* sobre */
+
+.sobre {
+    height: 2156px;
+}
+
+.servicos .intro {
+    margin-top: 176px;
+    text-align: center;
+}
+
+.lista-servicos {
+    margin-top: 56px;
+    z-index: 3;
+    position: relative;
+}
+
+.margin-list {
+    margin-left: 0px;
+}
+
+.list {
+    width:220px;
+    /*white-space: nowrap;*/
+}
+
+.legendas {
+    font-size: 1.5em;
+    margin-top: 38px;
+
+} 
+
+.icones-servicos img {
+    width: 66px;
+    float: left;
+    margin-top: 13px;
+}
+
+.video {
+    width: 300px;
+    height: 169px;
+}
+
+
+/* cits */
+
+.cits {
+    height: 1211px;
+}
+
+.legendas-cits {
+    font-size: 1em;
+    float: right;
+    width: 165px;
+}
+
+.thumb-cits {
+    width: 38%;
+    float: left;
+    margin-top: 20px;
+}
+
+/* Roteiros */
+
+.roteiros {
+    height: 1234px;
+}
+
+.roteiros .intro {
+    margin-bottom: 40px;
+
+}
+
+.legendas-roteiro {
+    width: 161px;
+    font-size: 0.8em;
+}
+
+
+.box-roteiro {
+    padding: 12px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+
+.lista-servicos {
+    margin-top: 0;
+}
+
+.lista-servicos .text {
+    font-size: 0.8em;
+
+}
+
+/*Contato*/
+
+.contato {
+    height: 453px;
+}
+
+.text-tel {
+    font-size: 1em;
+}
+
+.maps {
+    display: none;
+}
+
+
+.text-maps {
+    font-size: 1em;
+    float: left;
+}
+
+
+
+/*footer*/ 
+
+.footer {
+    height: 590px;
+}
+
+.logo-vmo {
+    text-align: center;
+}
+
+.logo-vmo img {
+    width: 35%;
+}
+
+.legendas-rodape {
+    text-align: center;
+}    
+
+
+.list-rodape {
+    text-align: center;
+}
+
+.legendas-rodape-2 {
+    text-align: center;
+    margin-left: 0px;
+}    
+
+.list-rodape-2 {
+    text-align: center;
+    margin-left: 0px;
+}
+
+.footer .list-rodape {
+    font-size: 0.8em;
+}
+
+
+.footer .list-rodape-2 {
+    font-size: 0.8em;
+}
+
+.social-media img {
+    margin-left: 0px;
+}
+
+.footer .text-maps {
+    font-size: 0.7em;
+    margin: 0px;
+
+}
+
+}
+
+
+

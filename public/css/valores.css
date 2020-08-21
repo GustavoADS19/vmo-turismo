@@ -1,0 +1,62 @@
+.valores {
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/estaiada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.back-vmo {
+    width: 100%;
+    height: 864px;
+    background-image: url("../img/fundo-vmo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-val {
+    color: #e3c94f;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-top: 110px;
+    clear: both;
+    font-variant: small-caps;
+    z-index: 2;
+    position: relative;
+}
+
+ h3.title-val {
+    color: #fff;
+    margin-top: 5px;
+}
+
+.spacing {
+    word-spacing: 20px;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+.intro {
+    margin-top: 230px;
+}
+
+.back-vmo {
+    height: 810px;
+}
+
+.valores {
+    height: 400px;
+}
+
+.title-val {
+    font-size: 1.8em;
+    margin-top: 70px;
+}
+
+.spacing {
+    word-spacing: 10px;
+
+}
+
+}

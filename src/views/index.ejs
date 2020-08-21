@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>VMO Turismo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="icon" href="img/vmo-favicon.gif" type="image/gif" sizes="32x32">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+	<%- include("../components/header.ejs") %>
+	<section class="introducao">
+		<div class="container">
+			<p class="intro">desde <span>2011</span> a vmo <br>fomenta a promoção de destinos</p>
+			<button class="btn">como podemos te ajudar?</button>
+		</div>
+	</section>
+
+	<section class="sobre">
+		<div class="container">
+			<h1 class="intro grid-12">Sobre a VMO</h1>
+			<p class="text grid-8">Fundada em 2011, nos últimos anos, a VMO Turismo se consolidou no<br>
+				fomento e desenvolvimento de atividades de Turismo e Eventos de São Paulo,<br>
+				objetivando a promoção de destinos.<br>
+				<br>
+
+				Operadora oficial das Centrais de Informações Turísticas da Cidade de São Paulo (CIT's),<br>
+				é responsável pelas visitas monitoradas nos edifícios Matarazzo e Martinelli, no centro antigo<br>
+				da cidade, atuando fortemente no guiamento contemplativo por diversos pontos turísticos da capital.</p>
+			<img class="isotipo" src="img/isotipo.svg" alt="Camaleão">
+			<video class="video" controls>
+				<source src="video/video-vmo-sao-paulo.mp4" type="video/mp4">
+			</video>
+
+			<div class="grid-12">
+				<a href="/valores"><button class="btn">carta de valores</button></a>
+			</div>
+
+			<!--O que fazemos-->
+			<section class="servicos">
+				<h1 class="intro grid-16">O que Fazemos</h1>
+				<ul class="grid-16">
+					<li class="lista-servicos grid-7">
+						<div class="icones-servicos">
+							<img src="img/monitoria.svg" alt="Monitoria">
+						</div>
+						<h2 class="legendas">Monitoria</h2>
+						<ul class="list">
+							<li>- Promoção dos espaços culturais;</li>
+							<li>- Ampliação da divulgação;</li>
+							<li>- Retorno para a sociedade;</li>
+							<li>- Linguagem direta.</li>
+						</ul>
+					</li>
+
+					<li class="lista-servicos margin-list grid-7">
+						<div class="icones-servicos">
+							<img src="img/press_trip.svg" alt="Press Trip">
+						</div>
+						<h2 class="legendas">Press Trip</h2>
+						<ul class="list">
+							<li>- Recepção das delegações;</li>
+							<li>- Difundir a multiculturalidade da Cidade<br> de São Paulo;</li>
+							<li>- Participação em eventos (CITs móveis);</li>
+							<li>- Técnico em Turismo especializado <br>dentro do consulado.</li>
+						</ul>
+					</li>
+
+					<li class="lista-servicos grid-7">
+						<div class="icones-servicos">
+							<img src="img/guiamento.svg" alt="guiamento">
+						</div>
+						<h2 class="legendas">Guiamento</h2>
+						<ul class="list">
+							<li>- Técnicos especializados para guiamentos;</li>
+							<li>- Guiamentos com conteúdo personalizado<br>de acordo com a demanda e necessidade<br> do
+								grupo;</li>
+							<li>- Participação em eventos (CITs móveis);</li>
+							<li>- Técnico em Turismo especializado <br>dentro do consulado.</li>
+						</ul>
+					</li>
+
+					<li class="lista-servicos margin-list grid-7">
+						<div class="icones-servicos">
+							<img src="img/stop-over.svg" alt="Stopover">
+						</div>
+						<h2 class="legendas">Stopover</h2>
+						<ul class="list">
+							<li>- Experiência;</li>
+							<li>- Interação e diversão;</li>
+							<li>- Tour na cidade com profissionais locais;</li>
+							<li>- Roteiros personalizados.</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<a href="/solucoes-turisticas"><button class="btn-center">descubra mais</button></a>
+	</section>
+	<!--Cits-->
+	<section class="cits">
+		<div class="container">
+			<h2 class="intro aligntext grid-16">centrais de informação turística (CIT's)</h2>
+			<p class="text grid-16">Dentre as ferramentas existentes em nosso corpo organizacional, a VMO possui o
+				projeto CIT's
+				(Centrais de Informações Turísticas da Cidade de São Paulo), com estruturas presentes em diversos
+				pontos da cidade, com profissionais capacitados para desenvolver o turismo no seu âmbito informativo,
+				promocional e de apoio a temas correlatos ao turismo, que, quando inseridos em feiras ou eventos,
+				estendem
+				a qualidade oferecida em suas respectivas centrais ao cliente, adaptando os tipos de serviços caso seja
+				preciso.
+			</p>
+			<div class="grid-3">
+				<h3 class="legendas-cits">Unidade Paulista</h3>
+				<img class="thumb-cits" src="img/cit_paulista_thumb.jpg" alt="Cit Paulista">
+			</div>
+			<div class="grid-3">
+				<h3 class="legendas-cits">Unidade República</h3>
+				<img class="thumb-cits" src="img/cit_republica_thumb.jpg" alt="Cit República">
+			</div>
+			<div class="grid-3">
+				<h3 class="legendas-cits">Unidade Tiete</h3>
+				<img class="thumb-cits" src="img/cit_tiete_thumb.jpg" alt="Cit Paulista">
+			</div>
+			<div class="grid-3">
+				<h3 class="legendas-cits">Unidade Congonhas</h3>
+				<img class="thumb-cits" src="img/cit_congonhas_thumb.jpg" alt="Cit Paulista">
+			</div>
+			<div class="grid-3">
+				<h3 class="legendas-cits">Polo Ecoturismo</h3>
+				<img class="thumb-cits" src="img/polo_de_ecoturismo_thumb.jpg" alt="Polo de Ecoturismo">
+			</div>
+		</div>
+		<a href="/cits"><button class="btn-center">conheça mais as CITs</button></a>
+	</section>
+	<!--Roteiros Temáticos-->
+	<section class="roteiros">
+		<div class="container">
+			<h3 class="intro aligntext grid-16">Roteiros Temáticos selecionados para você</h3>
+			<ul class="grid-16">
+				<li class="lista-servicos box-roteiro grid-7">
+					<div class="thumb-roteiro">
+						<img src="img/roteiro-casas-modernistas.jpg" alt="Roteiro Casas Modernistas">
+					</div>
+					<h4 class="legendas-roteiro">Casas Modernistas</h4>
+					<p class="text">As Casas Modernistas, têm como principal
+						objetivo serem residências. Esse estilo tem algumas
+						características...</p>
+				</li>
+				<li class="lista-servicos box-roteiro grid-7">
+					<div class="thumb-roteiro">
+						<img src="img/roteiro-ecologico-infantil.jpg" alt="Ecológico Infantil">
+					</div>
+					<h4 class="legendas-roteiro">Ecológico Infantil</h4>
+					<p class="text">Parque Ecológico do Tietê foi inaugurado em 1982,
+						e ocupa uma área de 14 milhões de m² nas margens
+						do Rio Tietê, no extremo leste...</p>
+				</li>
+				<li class="lista-servicos box-roteiro grid-7">
+					<div class="thumb-roteiro">
+						<img src="img/roteiro-futebol-em-sao-paulo.jpg" alt="Futebol em São Paulo">
+					</div>
+					<h4 class="legendas-roteiro">Futebol em São Paulo</h4>
+					<p class="text">Foi em São Paulo, terra da garoa, que o futebol
+						começou a se difundir e se tornar o maior esporte
+						do Brasil. No início, clubes montados com...</p>
+				</li>
+				<li class="lista-servicos box-roteiro grid-7">
+					<div class="thumb-roteiro">
+						<img src="img/roteiro-romanticos-de-luxo.jpg" alt="Rômanticos de Luxo">
+					</div>
+					<h4 class="legendas-roteiro">Românticos de luxo</h4>
+					<p class="text">A cidade de São Paulo pode ser o cenário perfeito
+						para um casal que quer curtir momentos românticos....</p>
+				</li>
+			</ul>
+		</div>
+		<a href="/roteiros"><button class="btn-center">conheça mais roteiros</button></a>
+	</section>
+	<!--Midias Sociais-->
+	<!--Galeria de fotos-->
+	<!--Contato-->
+	<section class="contato">
+		<div class="container">
+			<h3 class="intro aligntext grid-16">Vamos Conversar?</h3>
+			<div class="grid-16">
+				<ul class="info-contato">
+					<div class="call"></div>
+					<li class="text-tel">55 11 3562-5108</li>
+					<div class="email"></div>
+					<li class="text-tel">vmo@vmoturismo.com.br</li>
+				</ul>
+			</div>
+			<p class="text-maps aligntext grid-16">Rua Nove de Julho, 72 - Sala 57 CEP 04739-010 - Alto da Boa Vista</p>
+			<div class="maps">
+				<img src="img/maps.jpg" alt="Localização VMO">
+			</div>
+		</div>
+	</section>
+	<!--Rodapé-->
+	<%- include("../components/footer.ejs")  %>
+</body>
+
+</html>

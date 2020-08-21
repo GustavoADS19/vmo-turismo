@@ -1,0 +1,122 @@
+.roteiros-sub {
+    width: 100%;
+    height: 466px;
+    background-image: url("../img/roteiros.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.back-vmo {
+    width: 100%;
+    height: 4208px;
+    background-color: #141414;
+
+}
+
+.back-vmo .intro {
+    margin-top: 46px;
+}
+
+.back-vmo .box-roteiro {
+    border: 1px solid #e3c94f;
+    margin-left: 26px;
+    height: 513px;
+}
+
+.back-vmo .lista-servicos {
+    margin-top:48px;
+}
+
+.legendas-roteiro {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: center;
+    float: none;
+}
+
+
+.thumb-roteiro {
+    float: none;
+    margin-right: 0px;
+}
+
+.thumb-roteiro img {
+    width: 160px;
+    margin: 0 auto;
+    display: block;
+}
+
+.lista-servicos .text {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.back-vmo .btn {
+    width: 240px;
+    margin-top: 23px;
+}
+.btn-center {
+    margin-top: 58px;
+}
+
+/*Tablets*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+    .back-vmo .btn {
+     width: 194px;
+    }
+
+    .legendas-roteiro {
+        font-size: 0.9em;
+    }
+
+}
+
+/*Mobile*/
+
+@media only screen and (max-width: 767px) {
+
+    .back-vmo {
+        height:7756px;
+    }
+
+    .intro {
+    margin-top: 230px;
+    }
+
+    .back-vmo .intro {
+    font-size: 1.4em;
+    margin-bottom:34px;
+    }
+
+    .roteiros-sub {
+    height: 816px;
+    }
+
+    .back-vmo .box-roteiro {
+     margin-left: 0px;
+     height: 304px;
+     margin-bottom: 20px;
+    }
+
+    .thumb-roteiro img {
+     width: 130px;
+    }
+
+    .legendas-roteiro {
+     font-size: 0.9em;
+     width: auto;
+     margin-bottom: 14px;
+    }
+
+   .lista-servicos .text {
+    display: none;
+   }
+
+   .back-vmo .btn {
+    width: 273px;
+    margin-top: 17px;
+   }
+
+}

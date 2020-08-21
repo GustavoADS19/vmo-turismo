@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>VMO Turismo - Centrais de Informação Turística (CIT's)</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="icon" href="img/vmo-favicon.gif" type="image/gif" sizes="32x32">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/cits.css">
+
+</head>
+
+<body>
+	<%- include("../components/header.ejs") %>
+
+	<!--Solucoes Turisticas-->
+	<div class="bd-solucoes">
+		<section class="solucoes-turisticas-sub">
+			<div class="container">
+				<img class="logocits" src="img/sao-paulo-viva-tudo-isso.png" alt="São Paulo Viva Tudo Isso" />
+				<h1 class="intro aligntext">Centrais de Informação Turística (CIT's)</h1>
+				<p class="text aligntext">Em 2015, por iniciativa da Prefeitura de São Paulo, foi iniciado o Programa de
+					Visitas Monitoradas ao Edifício Matarazzo, sede do governo municipal. O roteiro gratuito, iniciado
+					em setembro, em caráter de teste para funcionários municipais, foi aberto à população no dia 3 de
+					novembro de 2015. O propósito do roteiro é a aproximar a população do Governo Municipal e do
+					Patrimônio histórico da Cidade. Os roteiros passam pelo terceiro andar e pelo jardim na cobertura do
+					prédio – onde há um belo mirante da cidade.</p>
+			</div>
+		</section>
+
+		<section class="back-vmo">
+			<div class="container">
+				<ul>
+					<li class="solucoes-box">
+						<img class="port-img" src="img/cit-congonhas.jpg" alt="Cit Congonhas" />
+						<h2 class="legendas">Cit Congonhas</h2>
+						<p class="text"><span>Inauguração:</span> Junho de 2014<br>
+							<span>Local:</span> Aeroporto de Congonhas<br>
+							<span>Endereço:</span> Av.Washington Luis, s/nº – Vila Congonhas.<br>Área de desembarque no
+							piso térreo.<br>
+							<span>Funcionamento:</span> Diariamente das 07h00 às 22h00</p>
+					</li>
+					<li class="solucoes-box">
+						<img class="port-img" src="img/cit-paulista.jpg" alt="Cit Paulista" />
+						<h2 class="legendas">Cit Paulista</h2>
+						<p class="text"><span>Inauguração:</span> Janeiro de 2010<br>
+							<span>Local:</span> Parque Prefeito Mário Covas<br>
+							<span>Endereço:</span> Av.Paulista, 1853.<br>
+							<span>Funcionamento:</span> Diariamente das 09h00 às 18h00</p>
+					</li>
+					<li class="solucoes-box">
+						<img class="port-img" src="img/cit-republica.jpg" alt="Cit República" />
+						<h2 class="legendas">Cit República</h2>
+						<p class="text"><span>Inauguração:</span> 1983<br>
+							<span>Local:</span> Praça da República<br>
+							<span>Endereço:</span> Praça da República, s/nº - Centro.<br>
+							<span>Funcionamento:</span> Diariamente das 09h00 às 18h00</p>
+					</li>
+					<li class="solucoes-box">
+						<img class="port-img" src="img/cit-tiete.jpg" alt="Cit Tietê" />
+						<h2 class="legendas">Cit Tietê</h2>
+						<p class="text"><span>Inauguração:</span> 2001<br>
+							<span>Local:</span> Terminal Rodoviário Tietê – Área de desembarque<br>
+							<span>Endereço:</span> Av. Cruzeiro do Sul, 1800 – Santana.<br>
+							<span>Funcionamento:</span> Diariamente das 06h00 às 22h00</p>
+					</li>
+					<li class="solucoes-box">
+						<img class="port-img" src="img/polo-de-ecoturismo.jpg" alt="Cit Polo de Ecoturismo" />
+						<h2 class="legendas">Cit Polo de Ecoturismo</h2>
+						<p class="text"><span>Inauguração:</span> 2005<br>
+							<span>Local:</span> Polo de Ecoturismo de São Paulo<br>
+							<span>Endereço:</span> Av. Sen. Teotônio Vilela, 8000 - Cidade Dutra.<br>
+							<span>Funcionamento:</span> Terça a domingo, das 08h00 às 12h00 e das<br> 13h às 17h</p>
+					</li>
+				</ul>
+			</div>
+			<a href="/"><button class="btn-center">Voltar para pagína principal</button></a>
+		</section>
+	</div>
+	<!--Fim Solucoes Turisticas-->
+
+	<!--Rodapé-->
+	<%- include("../components/footer.ejs")  %>
+</body>
+
+</html>
