@@ -4,6 +4,10 @@
 //Set de variáveis
 const fades = document.querySelectorAll(".section-fade");
 
+const menuMobile = document.querySelector(".menu-mobile");
+const botaoHamburger = document.querySelector(".botao-hamburger");
+const menuClose = document.querySelector(".menu-close");
+
 //Funções para rodar inicialmente
 scrollCheck();
 
@@ -34,3 +38,11 @@ function scrollCheck(event) {
         }
     }
 }
+
+menuClose.addEventListener("click", event => {
+    menuMobile.classList.add("offset-2");
+});
+
+botaoHamburger.addEventListener("click", event => {
+    menuMobile.classList.remove("offset-2");
+});
