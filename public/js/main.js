@@ -9,7 +9,7 @@ const botaoHamburger = document.querySelector(".botao-hamburger");
 const menuClose = document.querySelector(".menu-close");
 
 var mouseY = 0;
-var pageYOffset = 0;
+var pageYOffset;
 
 //Funções para rodar inicialmente
 scrollCheck();
@@ -19,7 +19,7 @@ window.addEventListener("scroll", event => {
     pageYOffset = event.path[1].scrollY;
     console.log(event);
 
-    if (pageYOffset != 0 && document.querySelector("header") && window.innerWidth > 767 && mouseY > 200) {
+    if (pageYOffset != 0 && document.querySelector("header") && window.innerWidth > 767 && mouseY > 120) {
         document.querySelector("header").classList.add("offset");
     } else {
         document.querySelector("header").classList.remove("offset");
@@ -38,7 +38,7 @@ window.addEventListener("resize", event => {
 });
 
 window.addEventListener("mousemove", event => {
-    mouseY = event.screenY;
+    mouseY = event.clientY;
     mouseMoveCheck();
 });
 
@@ -68,9 +68,9 @@ botaoHamburger.addEventListener("click", event => {
 });
 
 function mouseMoveCheck() {
-    if (mouseY <= 200 || pageYOffset == 0) {
+    if (mouseY <= 120 || pageYOffset == 0) {
         document.querySelector("header").classList.remove("offset");
-    } else if (mouseY > 200 && window.innerWidth > 767) {
+    } else if (mouseY > 120 && window.innerWidth > 767) {
         document.querySelector("header").classList.add("offset");
     }
 }
