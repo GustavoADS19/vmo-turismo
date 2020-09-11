@@ -26,7 +26,7 @@ window.addEventListener("scroll", event => {
     }
     
     scrollCheck();
-    mouseMoveCheck(event.path[1].pageYOffset);
+    mouseMoveCheck();
 });
 
 window.addEventListener("resize", event => {
@@ -39,7 +39,7 @@ window.addEventListener("resize", event => {
 
 window.addEventListener("mousemove", event => {
     mouseY = event.screenY;
-    mouseMoveCheck(event.offsetY);
+    mouseMoveCheck();
 });
 
 //Detectar se objeto está no viewport
@@ -67,10 +67,10 @@ botaoHamburger.addEventListener("click", event => {
     menuMobile.classList.remove("offset-2");
 });
 
-function mouseMoveCheck(offset) {
-    if (mouseY <= 200 ||  pageYOffset == 0) {
+function mouseMoveCheck() {
+    if (mouseY <= 200 || pageYOffset == 0) {
         document.querySelector("header").classList.remove("offset");
-    } else if (mouseY > 200) {
+    } else if (mouseY > 200 && window.innerWidth > 767) {
         document.querySelector("header").classList.add("offset");
     }
 }
