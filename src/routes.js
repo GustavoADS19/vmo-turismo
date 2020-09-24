@@ -1,6 +1,8 @@
 const express = require("express");
 const routes = express.Router();
 
+const EmailController = new (require("./controllers/EmailController"));
+
 routes.get("/", (request, response) => {
     response.render("index.ejs");
 });
@@ -24,5 +26,14 @@ routes.get("/cits", (request, response) => {
 routes.get("/roteiros", (request, response) => {
     response.render("roteiros.ejs");
 });
+
+routes.get("/patrocinio", (request, response) => {
+    response.render("patrocinio.ejs");
+});
+
+/*routes.post("/contato", async (request, response) => {
+    await EmailController.send("matheusibrahim@dkseventos.com.br", "Um novo contato respondeu ao formulário! 👋", "contato", request.body);
+    response.status(201).send();
+});*/
 
 module.exports = routes;
