@@ -1079,6 +1079,7 @@
     .patrocinio-section-1 .container .content{
         flex-direction: column;
         justify-content: center;
+        margin-top: 200px;
     }
 
     .patrocinio-section-1 .container .content .content-left{
@@ -1086,7 +1087,7 @@
     }
 
     .patrocinio-section-2 {
-        padding-top: 560px;
+        padding-top: 460px;
     }
 
     .patrocinio-section-2 .container h1{
