@@ -891,15 +891,18 @@
 }
 
 .patrocinio-section-1 {
+    height: 540px;
     background-image: url("../welcome-tomorrow/landing-background-1.png");
-    height: 755px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .patrocinio-section-1 .container .content {
     background-color: #4b196d;
     padding: 70px 30px 10px 30px;
     display: flex;
-    margin-top: 520px;
+    margin-top: 300px;
     align-items: center;
 }
 
