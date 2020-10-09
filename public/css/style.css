@@ -282,7 +282,7 @@
 
 .contato {
 	width: 100%;
-	height: 878px;
+	height: 1408px;
 	background-image: url("../img/contato.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -700,7 +700,7 @@
 /*Contato*/
 
 .contato {
-    height: 453px;
+    height: 993px;
 }
 
 .text-tel {
@@ -717,6 +717,9 @@
     float: left;
 }
 
+.contato .contact-form {
+    width: 100%;
+}
 
 
 /*footer*/ 
@@ -782,6 +785,65 @@
     background-color: #E3C94F;
 }
 
+.contact-form {
+    width: 55%;
+    margin: 28px auto;
+}
+
+.contact-form .form-group {
+    margin: 16px;
+}
+
+.contact-form button {
+    background-color: #E3C94F;
+    margin: 12px auto;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    transition: 200ms;
+}
+
+.contact-form button:hover { 
+    cursor: pointer;
+    background-color: #86762d;
+}
+
+.contact-form .form-group label {
+    color: white;
+}
+
+.contact-form .form-group input {
+    display: block;
+    margin-top: 6px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.contact-form .form-group textarea {
+    display: block;
+    margin-top: 6px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    height: 200px;
+    resize: none;
+}
+
+.contact-form .contact-submit {
+    text-align: center;
+}
+
+.contact-form h1 {
+    color:  #E3C94F;
+    text-align: center;
+    font-size: 24px;
+}
 /*Welcome Tomorrow*/
 
 .welcome-tomorrow {

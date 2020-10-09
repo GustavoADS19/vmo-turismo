@@ -17,7 +17,6 @@ scrollCheck();
 //Menu sumindo
 window.addEventListener("scroll", event => {
     pageYOffset = event.path[1].scrollY;
-    console.log(event);
 
     if (pageYOffset != 0 && document.querySelector("header") && window.innerWidth > 767 && mouseY > 120) {
         document.querySelector("header").classList.add("offset");

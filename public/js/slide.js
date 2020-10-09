@@ -33,7 +33,6 @@ slides.addEventListener("transitionend", event => {
         checkCurrent();
     }, 3000);
 
-    console.log(sliderIndex);
 });
 
 leftArrow.addEventListener("click", event => {

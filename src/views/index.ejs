@@ -247,7 +247,31 @@
 	<!--Contato-->
 	<section class="contato" id="contato">
 		<div class="container transition-2 section-fade">
-			<h3 class="intro aligntext grid-16">Vamos Conversar?</h3>
+			<h3 class="intro aligntext grid-16">Contato</h3>
+			<form class="contact-form" action="/contato" method="POST">
+				<div class="form-group">
+					<label for="nome">Nome</label>
+					<input type="text" name="nome" placeholder="Nome">
+				</div>
+				<div class="form-group">
+					<label for="email">E-mail</label>
+					<input type="email" name="email" placeholder="E-mail">
+				</div>
+				<div class="form-group">
+					<label for="telefone">Telefone</label>
+					<input type="text" name="telefone" placeholder="Telefone (DDD) 9XXXX-XXXX">
+				</div>
+				<div class="form-group">
+					<label for="assunto">Assunto</label>
+					<textarea name="assunto" placeholder="Assunto"></textarea>
+				</div>
+				<div class="contact-submit">
+					<button type="submit">Enviar</button>
+				</div>
+				<% if (enviado == true) { %>
+					<h1>Enviado com sucesso</h1>
+				<% } %>
+			</form>
 			<div class="grid-16">
 				<ul class="info-contato">
 					<div class="call"></div>
@@ -266,6 +290,11 @@
 	<%- include("../components/footer.ejs") %>
 	<script src="js/main.js"></script>
 	<script src="js/slide.js"></script>
+	<script>
+		if(window.location.pathname == "/contato"){
+			window.location.hash = "<%= location.toString() %>";
+		}
+	</script>
 </body>
 
 </html>
