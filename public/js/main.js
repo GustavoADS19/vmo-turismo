@@ -58,6 +58,10 @@ function scrollCheck(event) {
     }
 }
 
+function openPage(url) {
+    window.open(url, "_blank");
+}
+
 menuClose.addEventListener("click", event => {
     menuMobile.classList.add("offset-2");
 });

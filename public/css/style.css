@@ -486,7 +486,6 @@
     font-size: 0.8em;
 }
 
-
 }
 
 
@@ -849,6 +848,8 @@
 .welcome-tomorrow {
     background-color: #0e0119;
     background-image: url("../welcome-tomorrow/background-banner.png");
+    background-position-x: center;
+    background-repeat: repeat-x;
     object-fit: scale-down;
     padding: 180px 0;
     background-repeat: no-repeat;
@@ -942,7 +943,7 @@
 .overflow {
     position: relative;
     transition: 500ms;
-    width: 500%;
+    width: 600%;
     display: flex;
     transform: translateX(-100vw);
 }
@@ -1159,6 +1160,18 @@
     height: 500px;
 }
 
+.reconheca-sp{
+    background-image: url("../img/banner-reconheca.png");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.reconheca-sp a {
+    width: 100%;
+    height: 100%;
+}
+
 @media(max-width: 767px){
 
     .welcome-tomorrow .container{
@@ -1279,4 +1292,19 @@
     }
 }
 
+@media (max-width: 979px){
+    .reconheca-sp {
+        background-image: url("../img/banner-reconheca-43.png");
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 676px){
+    .reconheca-sp {
+        background-image: url("../img/banner-reconheca-46.png");
+        background-size: cover;
+        background-position: center;
+    }
+}
     
