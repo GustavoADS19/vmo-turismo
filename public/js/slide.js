@@ -10,14 +10,14 @@ init();
 slides.addEventListener("transitionend", event => {
     if (slides.style.transform == `translateX(0vw)`) {
         slides.style.transition = `0ms`;
-        sliderIndex = 3;
-        slides.style.transform = `translateX(-300vw)`;
+        sliderIndex = 2;
+        slides.style.transform = `translateX(-200vw)`;
         setTimeout(() => {
             slides.style.transition = `500ms`;
         });
     }
 
-    if (slides.style.transform == `translateX(-400vw)`) {
+    if (slides.style.transform == `translateX(-300vw)`) {
         slides.style.transition = `0ms`;
         sliderIndex = 1;
         slides.style.transform = `translateX(-100vw)`;
@@ -71,15 +71,11 @@ function checkCurrent() {
         slides.style.transform = `translateX(-300vw)`;
     }
 
-    if (sliderIndex == 4) {
-        slides.style.transform = `translateX(-400vw)`;
-    }
-
     if (sliderIndex < 0) {
         sliderIndex = 0;
     }
 
-    if (sliderIndex > 4) {
-        sliderIndex = 4;
+    if (sliderIndex > 3) {
+        sliderIndex = 3;
     }
 }
